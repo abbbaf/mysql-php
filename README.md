@@ -50,13 +50,13 @@ The error code is stored in $db->error.
 The auth method is used to authenticate a user if the passwords are stored using bcrypt.
 
 e.g.
-`
+
 <?php
 $query = "SELECT * FROM users WHERE user=?"; //Do not include the password column here
 $db = MySql::instance();
 $user = $_POST['user'];
 $pass = $_POST['password'];
-$success = $db auth($query,['password'  $pass],$user);
+$success = $db->auth($query,['password' => $pass],$user);
 ?>
 <form>
   <input type="text" name="user">
