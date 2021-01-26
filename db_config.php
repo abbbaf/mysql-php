@@ -1,8 +1,7 @@
 <?php
 
-const MYSQL_HOST = 'localhost';
-const MYSQL_USER = 'root';
-const MYSQL_PWD = '';
-const MYSQL_DB = 'digg';
-
+const MYSQL_HOST = 'host';
+const MYSQL_USER = 'user';
+const MYSQL_PWD = 'password';
+const MYSQL_DB = 'database name';
 ?>
