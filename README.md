@@ -23,9 +23,12 @@ The result of the query can be one of the following:
 
 **true** - The operation was successful but the quert is not expected to return 
 any row from the database (e.g. INSERT).
+
 **generator** - The operation was successful and the database returned matching rows 
 then the result is a generator of all matching rows.
+
 **null** - The operation failed because no matching row was found.
+
 **false** - The operation failed for other reasons. 
 The error code is stored in $db->error.
 
