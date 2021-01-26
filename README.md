@@ -51,7 +51,7 @@ The auth method is used to authenticate a user if the passwords are stored using
 
 e.g.
 
-`<?php
+<?php
 $query = "SELECT * FROM users WHERE user=?"; //Do not include the password column here
 $db = MySql::instance();
 $user = $_POST['user'];
@@ -63,8 +63,7 @@ $success = $db->auth($query,['password' => $pass],$user);
   <input type="text" name="user">
   <input type="passwrod" name="password">
 </form>
-`
-test
+
 
 `
 
