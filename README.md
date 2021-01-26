@@ -60,7 +60,7 @@ $success = $db->auth($query,['password' => $pass],$user);
   <input type="text" name="user">
   <input type="passwrod" name="password">
 </form>
-
+`
 
 
 `
