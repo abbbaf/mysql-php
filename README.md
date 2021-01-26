@@ -64,7 +64,7 @@ $success = $db->auth($query,['password' => $pass],$user);
   <input type="passwrod" name="password">
 </form>
 `
-
+test
 
 `
 
