@@ -56,7 +56,7 @@ $query = "SELECT * FROM users WHERE user=?"; //Do not include the password colum
 $db = MySql::instance();
 $user = $_POST['user'];
 $pass = $_POST['password'];
-$success = $db->auth($query,['password' => $pass],$user);
+$success = $dbauth($query,['password' => $pass],$user);
 ?>
 <form>
   <input type="text" name="user">
