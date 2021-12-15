@@ -1,6 +1,6 @@
 # MySQL PHP module.
 
-A module for easilty creating secure SQL queries.
+A module for easily creating secure SQL queries.
 
 ## How to use?
 
